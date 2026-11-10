@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .nav{
+            display: grid;
+            grid-template-columns: 20px 20px 600px 5px 200px 520px 80px;
+            margin-left: 30px;
+        }
+
+        .img {
+        width: 100vw;                 
+        height: 400px;
+        background: url("bgimg.png") center / cover no-repeat;
+        color: azure;
+        padding-top:100px;
+        align-items: center;
+        text-align: center;
+        margin-left: calc(50% - 50vw); 
+        }
+
+        .search{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .list{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+            gap: 40px;
+        }
+
+        .li{
+            background-color: rgb(230, 58, 58);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 100px;
+            border-radius: 30px;
+        }
+
+        .par{
+            align-items: center;
+            text-align: center;
+        }
+
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+        }
+
+        .sec3{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 100px;
+        }
+
+        .s3{
+            text-align: center;
+        }
+
+        .footer {
+        width: 100vw;
+        height: 150px;
+        background-color: rgb(57, 57, 57);
+        margin-top: 50px;
+        margin-bottom:  calc(50% - 50vw);
+        margin-left: calc(50% - 50vw);
+        text-align: center;
+        align-items: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <section class="sec1">
+
+        <div class="nav">
+            <h3 style="background-color: rgb(247, 185, 68); border-radius: 100%; width: 30px; height: 30px; color: aliceblue; font-family:Arial, Helvetica, sans-serif; display: flex; justify-content: center; align-items: center; font-size: 17px;">S</h3> 
+            &nbsp<h3 style="font-size: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">SpiceHub</h3>
+            <span style="display: flex; justify-content: center; align-items: center; font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(248, 186, 71);">Spices</span>
+            <span style="  display: flex; justify-content: center; align-items: center; font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif;">Dashbord</span>
+            <span style="  display: flex; justify-content: end; align-items: center; font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; margin-right: 10px;"><img src="user.png" style="width: 15px;">Login</span>
+            <span style=" display: flex; justify-content: space-evenly;  font-size: 18px; font-family:Verdana, Geneva, Tahoma, sans-serif; background-color: rgb(255, 192, 74); color:white; border-radius: 8px; height: 40px; align-items: center; margin-top :12px; width: 80px;"><img src="shopping-bag.png" style="width: 18px; ">Cart</span>
+        </div>
+
+        <div class="img">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; background: rgba(249, 248, 248, 0.268); width:250px; border-radius: 8px; color:white; margin: 10px; margin-left: 600px;">Premium Quality Spices</p>
+            <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; font-size: 50px; margin: 0px;">Discover the World of</h4>
+            <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:rgb(251, 182, 55); font-size: 50px; margin: 0px;">Authentic Spices</h4>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; margin: 20px; margin-bottom: 0px;">From exotic to everyday essentials, explore our curated</p>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; margin-top: 0px;">collection of priemium spices from around the globe.</p>
+            <button style="width: 100px; height: 40px; color: white; background-color: orange; border-radius: 8px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Shop Now</button>
+            <button style="width: 100px; height: 40px; background: rgba(255, 255, 255, 0.15);color: rgb(255, 255, 255); border-radius: 8px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Learn More</button>
+        </div>
+
+    </section>
+
+
+
+    <section class="sec2">
+
+        <div class="search">
+            <div style=" width: 300px; height:40px ; border: 3px solid rgba(214, 201, 177, 0.264);border-radius: 8px; margin-top: 30px; display: flex;">
+                <img src="search.png" style="width: 30px; height: 33px;"><input type="text" placeholder="search for spices..." style=" width: 300px; height:40px ; border: 0px solid rgba(214, 201, 177, 0.264); border-radius: 8px; ">
+            </div>
+            <button  style="width: 70px; height:45px ; border: 3px solid rgba(214, 201, 177, 0.264); border-radius: 8px; background-color: white; margin-top: 30px;">Filter</button>
+        </div>
+
+        <div class="list">
+            <li class="li" style="background-color: orange;">All spices</li>
+            <li class="li">Premium</li>
+            <li class="li">Organic</li>
+            <li class="li">everyday</li>
+            <li class="li">Blends</li>
+        </div>
+
+        <div class="par">
+            <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 25px; margin: 10px; ">Our Priemium Spices Collection</h3>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin: 0px;">Handpicked spices from trusted supplies around the the world, ensuring the highest</p>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  margin: 0px;">quality and freashness for your culnary adventures.</p>
+        </div>
+
+        <div class="box">
+            <div style=" width: 300px;border: 2px solid rgba(129, 120, 120, 0.142);border-radius: 10px;"><img src="1.jpg" style="width: 300px; height: 280px; ">
+                <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px;">Premium saffron</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">the purest saffron from kashmir</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">perfect for biriyani and luxury desserts</p>
+                <div style="margin-top: 6px;display: flex; gap: 60px;">
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px; color: rgb(247, 182, 62);"><b>$24.99</b></p>
+                    <button style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; margin: 5px; color: rgb(255, 255, 255); background-color: rgb(247, 182, 62); border: solid ; border-radius: 6px;">Add to Cart</button>
+                </div>
+            </div>
+            <div style=" width: 300px;border: 2px solid rgba(129, 120, 120, 0.142);border-radius: 10px;"><img src="2.jpg" style="width: 300px; height: 280px; ">
+                <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px;">Sweet Paprika</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">Mild and sweet spice that adds rich color</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">and gentle flavor to vegetables and meats.</p>
+                <div style="margin-top: 6px;display: flex; gap: 60px;">
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px; color: rgb(247, 182, 62);"><b>$24.99</b></p>
+                    <button style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; margin: 5px; color: rgb(255, 255, 255); background-color: rgb(247, 182, 62); border: solid ; border-radius: 6px;">Add to Cart</button>
+                </div>
+            </div>
+            <div style=" width: 300px;border: 2px solid rgba(129, 120, 120, 0.142);border-radius: 10px;"><img src="3.jpg" style="width: 300px; height: 280px; ">
+                <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px;">Organic Turmeric</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">Pure organic turmeric with earthy taste and</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">natural health benefits</p>
+                <div style="margin-top: 6px;display: flex; gap: 60px;">
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px; color: rgb(247, 182, 62);"><b>$24.99</b></p>
+                    <button style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; margin: 5px; color: rgb(255, 255, 255); background-color: rgb(247, 182, 62); border: solid ; border-radius: 6px;">Add to Cart</button>
+                </div>
+            </div>
+            <div style=" width: 300px;border: 2px solid rgba(129, 120, 120, 0.142);border-radius: 10px;"><img src="4.jpg" style="width: 300px; height: 280px; ">
+                <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px;">Ceylon Cinnamon</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">Light, sweet cinnamon perfect for</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0px; margin-left: 5px;">baking, desserts, and warm beverages.</p>
+                <div style="margin-top: 6px;display: flex; gap: 60px;">
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 5px; color: rgb(247, 182, 62);"><b>$24.99</b></p>
+                    <button style="font-family:Arial, Helvetica, sans-serif;  font-size: 20px; margin: 5px; color: rgb(255, 255, 255); background-color: rgb(247, 182, 62); border: solid ; border-radius: 6px;">Add to Cart</button>
+                </div>
+            </div>
+           
+            
+            
+        </div>
+
+        <div style=" height: 80px;display: flex; justify-content: center; align-items: end;">
+        <button style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 14px;width: 130px; height: 40px; background-color: white; border-radius: 8px; border: solid rgba(187, 175, 175, 0.147);">View All Spices</button>
+        </div>
+
+    </section>
+
+
+
+    <section class="sec3">
+        <div class="s3">
+            <div style=" margin-left: 120px;width: 50px; height: 50px; border-radius: 100%; background-color: rgb(251, 184, 60); display: flex; justify-content: center; align-items: center;">
+                <img src="star.png" style="width: 30px;">
+            </div>
+            <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 15px;">Premium Quality</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 5px;">Sourced directly from trusted farmers and </p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0%;">suppliers worldwide for the highest quality.</p>
+        </div>
+
+        <div class="s3">
+            <div style=" margin-left: 120px;width: 50px; height: 50px; border-radius: 100%; background-color: rgb(251, 184, 60); display: flex; justify-content: center; align-items: center;">
+                <p style="width: 30px;">🚚</p>
+            </div>
+            <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 15px;">Fast Delivery</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 5px;">Free shipping on orders over $50 with  </p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0%;">same-day processing and tracking.</p>
+        </div>
+
+        <div class="s3">
+            <div style=" margin-left: 120px;width: 50px; height: 50px; border-radius: 100%; background-color: rgb(251, 184, 60); display: flex; justify-content: center; align-items: center;">
+                <p style="width: 30px;">🌿</p>
+            </div>
+            <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 20px; margin: 15px;"> Fresh & Natural</h4>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 5px;">All spices are carefully tested for  </p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;  font-size: 13px; margin: 0%;">purity and packaged to maintain freshness.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div style="display: flex; display: flex; justify-content: center;align-items: center;height: 70px;  gap: 5px; margin-bottom: 0px;">
+            <h3 style="background-color: rgb(255, 179, 39); border-radius: 100%; width: 30px; height: 30px; color: aliceblue; font-family:Arial, Helvetica, sans-serif; display: flex; justify-content: center; align-items: center; font-size: 17px;">S</h3> 
+            <h3 style="font-size: 20px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(229, 226, 226);">SpiceHub</h3>
+        </div>
+
+        <p style="margin: 0px; color: rgb(230, 230, 230);margin-bottom: 10px;">Your trusted source for premium spices from around the world.</p>
+        <p style="margin: 0px; color: rgb(228, 226, 226);">© 2024 SpiceHub. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
